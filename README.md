@@ -1,5 +1,5 @@
 # Programa_Jovens_Tegranos_Exercicios
-Este repositório armazena exercícios realizados durante a etapa de Nivelamento do Programa Jovens Tegranos. 
+Este repositório armazena exercícios realizados durante a **etapa de Nivelamento** do Programa Jovens Tegranos. 
 - O padrão do HTML é seguido em todos os arquivos **index.html**, para que a folha de estilo comum (<a href="https://github.com/thenamesgiu/Programa_Jovens_Tegranos_Exercicios/blob/MainBranch/Exercicios_Logica_Programacao/style.css">**style.css**</a>) seja aplicada sem necessidade de repetição;
 - As funções em *javascript* apresentam variáveis de **expressão regular** (*Regex*) para tratamento de possíveis erros de *input*, como a inserção de caracteres especiais.
 
@@ -8,3 +8,6 @@ Todos os arquivos no repositório foram realizados utilizando tecnologias para o
 - HTML (*HyperText Markup Language* - Linguagem de marcação);
 - CSS (*Cascading Style Sheets* - Folha de estilo);
 - Javascript.
+
+
+*Por: Ana Giulia Moreira de Lima -* <a href = "https://github.com/thenamesgiu">*thenamesgiu*</a>
