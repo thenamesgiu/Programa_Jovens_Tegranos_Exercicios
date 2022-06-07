@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 20 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 20</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Escreva um programa que exiba a soma de todos os números
+            compreendidos entre um intervalo dado pelo usuário.
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontrando a soma entre o intervalo</span>
+            <label>Informe o número inicial:</label>
+            <input type="text" id="Inicio" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+            <label>Informe o número final:</label>
+            <input type="text" id="Final" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+
+            <button class="submit" type="button" onclick="Intervalo()">Somar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

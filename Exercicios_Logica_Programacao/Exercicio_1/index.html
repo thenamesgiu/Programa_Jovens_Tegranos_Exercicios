@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 1 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 1</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler as medidas da largura e comprimento de um
+            terreno retangular com uma casa decimal, bem como o valor do metro
+            quadrado do terreno com duas casas decimais. Em seguida, o programa
+            deve mostrar o valor da área do terreno, bem como o valor do preço do
+            terreno, ambos com duas casas decimais, conforme exemplo.</p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descubra o valor da área de um terreno e seu preço total</span>
+            <label>Informe a largura do terreno:</label>
+            <input type="text" id="Largura" class="textInput" placeholder="Insira um valor" title="Utilize ponto para números decimais">
+            <label>Informe o comprimento do terreno:</label>
+            <input type="text" id="Comprimento" class="textInput" placeholder="Insira um valor" title="Utilize ponto para números decimais">
+            <label>Informe o valor do metro quadrado do terreno:</label>
+            <input type="text" id="ValorMetro" class="textInput" placeholder="Insira um valor" title="Utilize ponto para números decimais">
+
+            <button class="submit" type="button" onclick="Terreno()">Ver valores</button>
+            
+            <div id="Resposta">
+                <p id="AreaTerreno"></p>
+                <p id="ValorTotal"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

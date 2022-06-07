@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 29 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 29</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Receber valores numéricos para o dia e o mês de nascimento de uma
+            pessoa; Exibir o signo da pessoa de acordo com os seguintes critérios:
+            
+            <ul >
+                <li>Áries: de 21 de março a 20 de abril;</li>
+                <li>Touro: de 21 de abril a 20 de maio;</li>
+                <li>Gêmeos: de 21 de maio a 20 de junho;</li>
+                <li>Câncer: de 21 de junho a 22 de julho;</li>
+                <li>Leão: de 23 de julho a 22 de agosto;</li>
+                <li>Virgem: de 23 de agosto a 22 de setembro;</li>
+                <li>Libra: de 23 de setembro a 22 de outubro;</li>
+                <li>Escorpião: de 23 de outubro a 21 de novembro;</li>
+                <li>Sagitário: de 22 de novembro a 21 de dezembro;</li>
+                <li>Capricórnio: de 22 de dezembro a 20 de janeiro;</li>
+                <li>Aquário: de 21 de janeiro a 18 de fevereiro;</li>
+                <li>Peixes: de 19 de fevereiro a 20 de março;</li>
+            </ul>
+                      
+            </p>
+            
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descobrindo seu signo do zodíado</span>
+            <label>Informe o seu dia e mês de nascimento:</label>
+            <input type="date" id="Numero" class="DateInput" placeholder="Insira um CNPJ" >
+            <button class="submit" type="button" onclick="Signo()">Visualizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>

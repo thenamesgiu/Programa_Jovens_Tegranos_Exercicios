@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 7 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 7</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler a distância total (em km) percorrida por um
+            carro, bem como o total de combustível gasto por este carro ao percorrer
+            tal distância. Seu programa deve mostrar o consumo médio do carro, com
+            três casas decimais
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontrando o consumo médio de um veículo</span>
+            <label>Informe a distância percorrida (o valor é lido como Km):</label>
+            <input type="text" id="Distancia" class="textInput" placeholder="Insira um valor" title="Para decimais, utilize ponto.">
+            <label>Informe o combústivel gasto pelo veículo:</label>
+            <input type="text" id="Combustivel" class="textInput" placeholder="Insira um valor" title="Para decimais, utilize ponto.">
+
+            <button class="submit" type="button" onclick="Consumo()">Calcular</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

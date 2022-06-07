@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 14 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 14</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para calcular o troco no processo de pagamento de
+            um produto de uma mercearia. O programa deve ler o preço unitário do
+            produto, a quantidade de unidades compradas deste produto, e o valor em
+            dinheiro dado pelo cliente. Seu programa deve mostrar o valor do troco a
+            ser devolvido ao cliente. Se o dinheiro dado pelo cliente não for suficiente,
+            mostrar uma mensagem informando o valor restante conforme exemplo.
+                        
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontre o troco para uma compra de produtos</span>
+            <label>Informe o preço unitário do produto:</label>
+            <input type="text" id="Unitario" class="textInput" placeholder="Insira um valor" title="Para decimais, utilize ponto.">
+            <label>Informe quantidade de produto comprada:</label>
+            <input type="text" id="QtdComprada" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+            <label>Informe o valor recebido em dinheiro:</label>
+            <input type="text" id="ValorDado" class="textInput" placeholder="Insira um valor" title="Para decimais, utilize ponto.">
+
+            <button class="submit" type="button" onclick="TrocoCliente()">Calcular</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

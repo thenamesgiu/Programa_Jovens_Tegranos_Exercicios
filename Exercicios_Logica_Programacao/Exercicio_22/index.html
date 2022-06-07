@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 22 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 22</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Ler um número inteiro N, daí mostrar na tela a tabuada de N para 1 a 10,
+            conforme exemplo.
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Veja a tabuada de 1 a 10 para cada número inteiro.</span>
+            <label>Deseja a tabuada para qual valor?</label>
+            <input type="text" id="Numero" class="textInput" placeholder="Insira um valor desejado" title="Utilize apenas números inteiros.">
+            <button class="submit" type="button" onclick="Tabuada()">Visualizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

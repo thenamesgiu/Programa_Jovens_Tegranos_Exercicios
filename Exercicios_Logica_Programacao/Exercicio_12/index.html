@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 12 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 12</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler os três coeficientes de uma equação do
+            segundo grau. Usando a fórmula de Bhaskara, calcular e mostrar os valores
+            das raízes x1 e x2 da equação com quatro casas decimais, conforme
+            exemplos. Se a equação não possuir raízes reais, mostrar uma mensagem
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontrando as raízes de uma equação do segundo grau</span>
+            <label>Informe o coeficiente <b>a</b>:</label>
+            <input type="text" id="CoefA" class="textInput" placeholder="Insira um valor numérico" title="Utilize ponto para decimais.">
+            <label>Informe o coeficiente <b>b</b>:</label>
+            <input type="text" id="CoefB" class="textInput" placeholder="Insira um valor numérico" title="Utilize ponto para decimais.">
+            <label>Informe o coeficiente <b>c</b>:</label>
+            <input type="text" id="CoefC" class="textInput" placeholder="Insira um valor numérico" title="Utilize ponto para decimais.">
+
+            <button class="submit" type="button" onclick="Equacao()">Calcular</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

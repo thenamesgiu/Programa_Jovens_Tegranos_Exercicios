@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 19 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 19</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Uma empresa vai conceder um aumento percentual de salário aos seus
+            funcionários dependendo de quanto cada pessoa ganha, conforme tabela
+            ao lado. Fazer um programa para ler o salário de uma pessoa, daí mostrar
+            qual o novo salário dessa pessoa depois do aumento, quanto foi o aumento
+            e qual foi a porcentagem de aumento.            
+            </p>
+            <table>
+                <tr>
+                    <th>Salário atual</th>
+                    <th>Aumento</th>
+                </tr>
+                <tr>
+                    <td>Até R$999.00</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Entre R$1000.00 e R$2999.00</td>
+                    <td>15%</td>
+                </tr>
+                <tr>
+                    <td>Entre R$3000.00 e R$7999.00</td>
+                    <td>10%</td>
+                </tr>
+                <tr>
+                    <td>Acima R$8000.00</td>
+                    <td>5%</td>
+                </tr>
+            </table>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descobrindo o novo salário após um aumento</span>
+            <label>Informe o salário atual:</label>
+            <input type="text" id="Numero" class="textInput" placeholder="Insira o valor atual" title="Para decimais, utilize ponto.">
+            <button class="submit" type="button" onclick="Salario()">Calcular</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

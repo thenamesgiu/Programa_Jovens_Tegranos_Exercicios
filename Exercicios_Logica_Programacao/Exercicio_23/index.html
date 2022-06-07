@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 23 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 23</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Leia dois valores inteiros X e Y. A seguir, calcule e mostre a soma dos
+            números ímpares entre eles.
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descobrindo a soma dos ímpares entre dois números</span>
+            <label>Informe dois números inteiros inserindo espaço entre os mesmos:</label>
+            <input type="text" id="Numero" class="textInput" placeholder="Ex.: 2 9" title="Utilize apenas números inteiros.">
+            <label id = "Dica" style="font-size: 86%; display:block;"><b>Dica:</b> Se mais de dois valores numéricos forem fornecidos, o último valor será ignorado.</label>
+            <button class="submit" type="button" onclick="SomaImpar()">Visualizar relação</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

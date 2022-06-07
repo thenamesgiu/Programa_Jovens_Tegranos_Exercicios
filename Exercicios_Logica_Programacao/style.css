@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,800;0,900;1,200;1,300;1,500;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, #212127, #0D0D0E);
+    background-repeat: no-repeat;
+    position:relative;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.Desc{
+    background-color:#2C2C3B;
+    padding: 3%;
+    color: #DDDDE6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    cursor: default;
+   
+}
+
+.Processo{
+    background-color:#2C2C3B;
+    padding: 2%;
+    color: #DDDDE6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+   position: relative;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+h2{
+    background: -webkit-linear-gradient(#AC5bf8, #7535B4);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    cursor: default;
+    letter-spacing: 6px;
+    max-width: max-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+h3, label{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    
+}
+button{
+    margin-top: 2%;
+    cursor: pointer; 
+    padding: 0.6%;
+    margin-left: 37%;
+    margin-right: 37%;
+    background: linear-gradient(to right,  #8925E7, #7535B4);
+    font-size: 100%;
+    border:none;
+   
+    color: #21163a;
+    font-weight: bold;
+    transition: all 0.6s ease;
+}
+button:hover{
+  letter-spacing: 1px;
+  background: linear-gradient(to left,  #8925E7, #7535B4);
+}
+
+span{
+    font-weight:bolder;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(#AC5BF8, #7535B4);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    cursor: default;
+}
+
+input, select{
+    width: 100%;
+    padding: 0.8%;
+    color: #21163A;
+    font-size: 94%;
+    outline: none;
+}
+
+input::placeholder{
+    color: #4D3E5C;
+    font-size: 94%;
+
+}
+select{
+    width: 37%;
+}
+
+
+#Resposta{
+    border: 2px solid #8925E7;
+    padding: 1%;
+    color:#F2E9FA;
+    max-width: max-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    cursor: default;
+    visibility: hidden;
+}
+
+table, th, td{
+    border: 1px solid #DDDDE6;
+    border-collapse: collapse;
+    padding: 6px;
+    cursor: default;
+    text-align:center ;
+}
+table{
+    max-width: max-content;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.DateInput{
+    text-align: center;
+    width: 389%;
+    max-width: max-content;
+    margin: auto;
+}
+
+ul {
+    margin-top: 2%;
+    list-style-type: none;
+    font-weight: bold;
+    
+    margin-top: 2%;
+    
+
+}

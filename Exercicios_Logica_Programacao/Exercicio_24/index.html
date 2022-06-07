@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 24 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 24</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Receber 5 valores numéricos inteiros; Ordenar os valores em ordem
+            crescente; Exibir os valores ordenados.
+            
+            </p>
+        
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Organizando em ordem crescente</span>
+            <label>Insira cinco números inteiros utilizando espaço entre eles.</label>
+            <input type="text" id="Numero" class="textInput" placeholder="Insira cinco valores inteiros" title="Utilize apenas números inteiros.">
+            <label id = "Dica" style="font-size: 86%; display:block;"><b>Dica:</b> Se mais de cinco valores numéricos forem fornecidos, o último valor será ignorado.</label>
+            <button class="submit" type="button" onclick="Crescente()">Organizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

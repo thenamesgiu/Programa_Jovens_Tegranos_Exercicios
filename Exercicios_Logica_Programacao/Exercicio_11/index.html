@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 11 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    
+        <h2>Exercício 11</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler as duas notas que um aluno obteve no
+            primeiro e segundo semestres de uma disciplina anual. Em seguida,
+            mostrar a nota final que o aluno obteve (com uma casa decimal) no ano
+            juntamente com um texto explicativo. Caso a nota final do aluno seja
+            <b>inferior a 60.00</b>, mostrar a mensagem <b>"REPROVADO"</b>, conforme exemplos.</p>
+    </section>
+    
+    <section class="Processo">
+        <form>
+            <span class="Instrucao">Insira suas notas abaixo</span>
+            <label>Informe a primeira nota:</label>
+            <input type = "text" id= "Primeira" class="textInput" placeholder="Digite a primeira nota" title="Para decimais, utilize ponto"> 
+            <label>Informe a segunda nota:</label>
+            <input type = "text" id= "Segunda" class="textInput" placeholder="Digite a segunda nota" title="Para decimais, utilize ponto"> 
+            
+            <button class="submit" type="button" onclick="MediaAnual()">Calcule a média</button>
+            
+            <div id="Resposta">
+                <p id="Nota"></p>
+                <p id="Aprovacao"></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

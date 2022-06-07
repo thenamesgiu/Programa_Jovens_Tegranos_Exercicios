@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 10 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 10</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler três números inteiros. Em seguida, mostrar
+            qual o menor dentre os três números lidos. Em caso de empate, mostrar
+            apenas uma vez.
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontrando o menor valor inteiro</span>
+            <label>Informe o primeiro valor inteiro:</label>
+            <input type="text" id="Primeiro" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+            <label>Informe o segundo valor inteiro:</label>
+            <input type="text" id="Segundo" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+            <label>Informe o terceiro valor inteiro:</label>
+            <input type="text" id="Terceiro" class="textInput" placeholder="Insira um valor inteiro" title="Utilize apenas números inteiros.">
+
+            <button class="submit" type="button" onclick="MenorInt()">Visualizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

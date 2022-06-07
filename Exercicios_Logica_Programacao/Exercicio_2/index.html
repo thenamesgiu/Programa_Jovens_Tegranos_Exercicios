@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 2 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 2</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler as medidas da base e altura de um retângulo.
+            Em seguida, mostrar o valor da área, perímetro e diagonal deste retângulo,
+            com quatro casas decimais, conforme exemplo.            
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Encontre as medidas de um retângulo</span>
+            <label>Informe a base do retângulo:</label>
+            <input type="text" id="Base" class="textInput" placeholder="Insira um valor para a base" title="Para decimais, utilize ponto.">
+            <label>Informe a altura do retângulo:</label>
+            <input type="text" id="Altura" class="textInput" placeholder="Insira um valor para a altura" title="Para decimais, utilize ponto.">
+
+            <button class="submit" type="button" onclick="Retangulo()">Calcular</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

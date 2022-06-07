@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 3 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 3</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler o nome e idade de duas pessoas. Ao final
+            mostrar uma mensagem com os nomes e a idade média entre essas
+            pessoas, com uma casa decimal, conforme exemplo.</p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descubra a média entre a idade de duas pessoas</span>
+            <label>Insira o primeiro nome:</label>
+            <input type="text" id="nome1" class="textInput" placeholder="Insira um nome">
+            <label>Insira a primeira idade:</label>
+            <input type="text" id="idade1" class="textInput" placeholder="Insira uma idade" title="Utilize apenas números naturais, o uso de decimais impossibilita resultados.">
+            <label>Insira um segundo nome:</label>
+            <input type="text" id="nome2" class="textInput" placeholder="Insira outro nome">
+            <label>Insira uma segunda idade:</label>
+            <input type="text" id="idade2" class="textInput" placeholder="Insira outra idade" title="Utilize apenas números naturais, o uso de decimais impossibilita resultados.">
+
+            <button class="submit" type="button" onclick="IdadeMedia()">Calcule a média</button>
+            <div id="Resposta">
+             <p id="resultado"></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

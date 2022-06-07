@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 6 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 6</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler o nome de um(a) funcionário(a), o valor que
+            ele(a) recebe por hora, e a quantidade de horas trabalhadas por ele(a). Ao
+            final, mostrar o valor do pagamento do funcionário com uma mensagem
+            explicativa, conforme exemplo.
+            .            
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Descubra o valor do pagamento de um funcionário</span>
+            <label>Informe o nome do funcionário:</label>
+            <input type="text" id="NomeFunc" class="textInput" placeholder="Insira o nome">
+            <label>Informe o valor por hora trabalhada:</label>
+            <input type="text" id="HoraValor" class="textInput" placeholder="Insira o valor por hora" title="Para decimais, utilize ponto.">
+            <label>Informe a quantidade de horas trabalhadas:</label>
+            <input type="text" id="HorasTrab" class="textInput" placeholder="Insira a quantidade de horas" title="Para decimais, utilize ponto.">
+
+            <button class="submit" type="button" onclick="Pagamento()">Visualizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

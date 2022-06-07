@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 18 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 18</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p> Deseja-se converter uma medida de temperatura da escala Celsius para
+            Fahrenheit ou vice-versa. Para isso, você deve construir um programa que
+            leia a letra "C" ou "F" indicando em qual escala vai ser informada uma
+            temperatura. Em seguida, o programa deve mostrar a temperatura na
+            outra escala com duas casas decimais. Você deve pesquisar as fórmulas
+            para conversão de Fahrenheit->Celsius e de Celsius->Fahrenheit.           
+            </p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Convertendo temperatura de acordo com a escala</span>
+            <label>Selecione a escala termométrica da temperatura a ser informada:</label>
+            <select id="EscalaTemp">
+                <option value="C">Celsius (C)</option>
+                <option value="F">Fahrenheit (F)</option>
+            </select>
+            <label>Informe a temperatura:</label>
+            <input type="text" id="TempInformada" class="textInput" placeholder="Insira um valor para a temperatura" title="Utilize ponto para decimais.">
+
+            <button class="submit" type="button" onclick="Temperatura()">Converter</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

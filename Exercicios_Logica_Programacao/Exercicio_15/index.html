@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 15 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 15</h2>
+    <section class="Desc">
+        <h3>Descrição:</h3>
+        <p>Fazer um programa para ler a quantidade de glicose no sangue de uma
+            pessoa e depois mostrar na tela a classificação desta glicose de acordo
+            com a tabela de referência abaixo:
+            </p>
+        <table>
+            <tr>
+                <th>Classificação</th>
+                <th>Glicose</th>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>Até 100 mg/dl</td>
+            </tr>
+            <tr>
+                <td>Elevado</td>
+                <td>Entre 100 e 140 mg/dl</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>Maior que 140 mg/dl</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Lendo a quantidade de glicose no sangue e classificando-a</span>
+            <label>Informe a quantidade de glicose:</label>
+            <input type="text" id="Numero" class="textInput" placeholder="Insira um valor" title="Utilize ponto para decimais.">
+            <button class="submit" type="button" onclick="Glicose()">Visualizar</button>
+            
+            <div id="Resposta">
+                <p id="Resultado"></p>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

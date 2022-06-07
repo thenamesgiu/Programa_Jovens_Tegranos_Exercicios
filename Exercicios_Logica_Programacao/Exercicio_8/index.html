@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Exercício 8 - Programa Jovens Tegranos</title>
+</head>
+<body>
+    <h2>Exercício 8</h2>
+    <section class="Desc">
+    <h3>Descrição:</h3>
+    <p>Fazer um programa para ler três medidas A, B e C. Em seguida, calcular e
+        mostrar (imprimir os dados com quatro casas decimais):
+        <br> a) a área do quadrado que tem lado A </br>
+        <br> b) a área do triângulo retângulo que base A e altura B </br>
+        <br> c) a área do trapézio que tem bases A e B, e altura C </br></p>
+    </section>
+
+    <section class="Processo">
+        <form>
+            <span>Informe as medidas para encontrar área de polígonos.</span>
+
+            <label>Informe a primeira medida:</label>
+            <input type = "text" id="MedA"  class="textInput" placeholder="Insira um primeiro valor" title="Para decimais, utilize ponto.">
+            <label>Informe a segunda medida:</label>
+            <input type = "text" id="MedB"  class="textInput" placeholder="Insira um segundo valor" title="Para decimais, utilize ponto.">
+            <label>Informe a terceira medida:</label>
+            <input type = "text" id="MedC"  class="textInput" placeholder="Insira um último valor" title="Para decimais, utilize ponto.">
+
+            <button class = "submit" type="button" onclick="Areas()">Calcular</button> 
+            <div id="Resposta">
+                <p id = "QuadradoResultado"></p>
+                <p id = "TrianguloResultado"></p>
+                <p id = "TrapezioResultado"></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
